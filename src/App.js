@@ -5,6 +5,7 @@ import {Card, CardHeader, CardText} from 'material-ui/Card'
 import About from './components/About'
 import Projects from './components/Projects'
 import ProjectsMini from './components/ProjectsMini'
+import ProjectsMicro from './components/ProjectsMicro'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import Testimonials from './components/Testimonials'
 
@@ -37,6 +38,8 @@ class App extends Component {
         <Projects />
         <h2>WHAT YOU WILL BUILD: Shortened Curriculum</h2>
         <ProjectsMini />
+        <h2>WHAT YOU WILL BUILD: Shortest Curriculum</h2>
+        <ProjectsMicro />
         <h2>ABOUT YOUR ORGANIZER</h2>
         <About />
         {/* <Testimonials /> */}

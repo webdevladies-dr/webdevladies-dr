@@ -8,7 +8,7 @@ const projects = [{
     title: '1. Tribute Webpage',
     image: './assets/images/project-images/ppp.png',
     description: 'Build a single-page, static website that incorporates visual media.',
-    tech: 'Semantic HTML, CSS, Chrome Web Developer Tools'
+    tech: 'HTML5, CSS, Chrome Web Developer Tools'
   },{
     title: '2. Portfolio or Storefront Website',
     image: './assets/images/project-images/continental-phil-tube.png',
@@ -41,7 +41,7 @@ const projects = [{
     title: 'Front-End Capstone: Your Choice',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Work with at least one other person to develop a beautiful, interactive, responive front-end project.',
-    tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
+    tech: 'HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
   },
   {
     title: '7. Node',
@@ -95,7 +95,7 @@ const projects = [{
     title: 'Full-Stack Capstone: Your Choice',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'You will work with at least one other person to put together a full-stack application website of your choosing.',
-    tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Node.js, Express, Handlebars or React, Mongo/Mongoose, Passport.js'
+    tech: 'HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Node.js, Express, Handlebars or React, Mongo/Mongoose, Passport.js'
   }
 ]
 
