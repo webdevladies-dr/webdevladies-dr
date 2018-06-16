@@ -5,19 +5,19 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import './Projects.css'
 
 const projects = [{
-    title: '1. Single Webpage',
+    title: '1. Tribute Webpage',
     image: './assets/images/project-images/ppp.png',
     description: 'Build a single-page, static website that incorporates visual media.',
     tech: 'Semantic HTML, CSS, Chrome Web Developer Tools'
   },{
-    title: '2. Responsive Website',
+    title: '2. Portfolio or Storefront Website',
     image: './assets/images/project-images/continental-phil-tube.png',
-    description: 'Build a responsive, mobile-ready website, continue learning how to use your Chrome developer tools as well as begining to use Gitbash/Terminal, a text editor like Atom, and Github for version control.',
-    tech: 'Atom, Gitbash/Terminal, Github'
+    description: 'Build and deploy a responsive, mobile-ready website, continue learning how to use your Chrome developer tools as well as begining to use Gitbash/Terminal, a text editor like Atom, and Github for version control and Github pages for deployment.',
+    tech: 'Bootstrap, Atom, Gitbash/Terminal, Github'
   },{
-    title: '3. Simple Game',
+    title: '3. Let\'s Play',
     image: './assets/images/project-images/pdx-tech-hub.png',
-    description: 'Build a simple game to practice your JavaScript skills, like tic-tac-toe or a memory game.',
+    description: 'Build a simple game to practice your JavaScript skills, like tic-tac-toe, a memory card game, or an online quiz.',
     tech: 'JavaScript'
   },{
     title: '4. Quote Generator',
@@ -28,8 +28,8 @@ const projects = [{
   {
     title: '5. Two-Player Board Game',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a board game where players take turns, can move across the board, and carry out tasks.',
-    tech: 'JavaScript, jQuery, Canvas'
+    description: 'Build a board game where players take turns, can move across the board, pick-up items and carry out other tasks in order to score points.',
+    tech: 'more JavaScript and jQuery, Canvas'
   },
   {
     title: '6. Use an API',
@@ -52,13 +52,13 @@ const projects = [{
   {
     title: '8. Server-up!',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build your first back-end server using Express',
+    description: 'Build your first back-end server using Express.',
     tech: 'Express'
   },
   {
     title: '9. Back-End Templating',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Learn the principles of D.R.Y. by implemenintg some server-side templating,',
+    description: 'Learn the principles of D.R.Y. by implemenintg some server-side templating.',
     tech: 'Handlebars'
   },
   {
