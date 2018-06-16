@@ -30,7 +30,7 @@ const projects = [{
     title: 'Front-End Capstone: Your Choice',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Work with at least one other person to develop a beautiful, interactive, responive front-end project.',
-    tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
+    tech: 'Semantic HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
   },
   {
     title: '5. Node',

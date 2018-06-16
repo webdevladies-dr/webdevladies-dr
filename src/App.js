@@ -34,12 +34,15 @@ class App extends Component {
             </ul>
           </CardText>
         </Card>
-        <h2>WHAT YOU WILL BUILD: Full Curriculum</h2>
-        <Projects />
-        <h2>WHAT YOU WILL BUILD: Shortened Curriculum</h2>
-        <ProjectsMini />
-        <h2>WHAT YOU WILL BUILD: Shortest Curriculum</h2>
+        <h2>WHAT YOU WILL BUILD</h2>
+        <h4>Short Curriculum</h4>
         <ProjectsMicro />
+        {/* <h2>WHAT YOU WILL BUILD</h2>
+        <h4> Shortened Curriculum</h4>
+        <ProjectsMini />
+        <h2>WHAT YOU WILL BUILD</h2> */}
+        <h4>Full Curriculum</h4>
+        <Projects />
         <h2>ABOUT YOUR ORGANIZER</h2>
         <About />
         {/* <Testimonials /> */}

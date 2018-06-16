@@ -7,13 +7,13 @@ import './Projects.css'
 const projects = [{
     title: '1. Portfolio or Storefront Website',
     image: './assets/images/project-images/continental-phil-tube.png',
-    description: 'Build and deploy a responsive, mobile-ready website, continue learning how to use your Chrome developer tools as well as begining to use Gitbash/Terminal, a text editor like Atom, and Github for version control and Github pages for deployment.',
+    description: 'Build and deploy a responsive, mobile-ready website.',
     tech: 'HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github'
   },
   {
     title: '2. Let\'s Play',
     image: './assets/images/project-images/pdx-tech-hub.png',
-    description: 'Build an online quiz game to practice your JavaScript skills.',
+    description: 'Build an online quiz or quote generator game to practice your JavaScript skills.',
     tech: 'JavaScript, jQuery'
   },
   {
@@ -31,7 +31,7 @@ const projects = [{
   {
     title: '4. Node',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a simple command-line application with Node.js and learn about the word of Node packages with NPM (Node Package Manager).',
+    description: 'Build a simple command-line application with Node.js.',
     tech: 'Node.js, NPM, Inquirer.js'
   },
   {
@@ -43,14 +43,14 @@ const projects = [{
   {
     title: '6. Firebase Project',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'See how it easy it is to build serverless full-stack application with user authentication using a service like Firebase in combiantion with React.',
+    description: 'See how it easy it is to build a serverless full-stack application with user authentication with Firebase and React.',
     tech: 'Firebase'
   },
   {
     title: 'Full-Stack Capstone: Your Choice',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'You will work with at least one other person to put together a full-stack application website of your choosing.',
-    tech: 'HTML5, CSS, Bootstrap, JavaScript, jQuery, React, Firebase'
+    tech: 'HTML5, CSS, Bootstrap, JavaScript, React, Firebase'
   }
 ]
 
