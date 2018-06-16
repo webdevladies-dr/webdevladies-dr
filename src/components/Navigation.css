@@ -1,0 +1,20 @@
+.Navbar {
+  margin-bottom: 80px;
+  background: #fff;
+}
+.navbar-default {
+  padding: 5px;
+}
+.navbar-brand {
+  margin-bottom: 0;
+}
+.logo {
+  width: 24px;
+}
+h1 {
+  color: #646283 !important;
+}
+
+p {
+  letter-spacing: 2px;
+}
