@@ -94,7 +94,7 @@ const projects = [{
   {
     title: 'Full-Stack Capstone',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'You will work with at least two other person to put together a full-stack application website of your choosing.',
+    description: 'You will work with at least two other people to put together a full-stack application website of your choosing.',
     tech: 'HTML5, CSS, JavaScript, Node.js/Express, Handlebars or React, Mongo/Mongoose, Passport.js'
   }
 ]

@@ -36,6 +36,10 @@
   flex-wrap: nowrap;
 }
 
+hr {
+  width: 80%;
+}
+
 @media screen and (max-width: 625px) {
   .project {
       width: 100%;

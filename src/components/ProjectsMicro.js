@@ -6,50 +6,50 @@ import './Projects.css'
 
 const projects = [{
     title: '1. Portfolio or Storefront Website',
-    image: './assets/images/project-images/continental-phil-tube.png',
+    image: './assets/images/blue-line.png',
     description: 'Build and deploy a responsive, mobile-ready website.',
     tech: 'HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github'
   },
   {
     title: '2. Let\'s Play',
-    image: './assets/images/project-images/pdx-tech-hub.png',
+    image: './assets/images/blue-line.png',
     description: 'Build an online quiz or quote generator game to practice your JavaScript skills.',
     tech: 'JavaScript, jQuery'
   },
   {
     title: '3. Use an API',
-    image: './assets/images/project-images/meetEmma2.png',
+    image: './assets/images/blue-line.png',
     description: 'Consume data from a third party API and deliver it to your user.',
     tech: 'Postman, API'
   },
   {
-    title: 'Front-End Capstone',
-    image: './assets/images/project-images/meetEmma2.png',
+    title: 'Capstone: Front-End',
+    image: './assets/images/blue-line.png',
     description: 'Work with at least one other person to develop a beautiful, interactive, responive front-end project.',
     tech: 'HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming'
   },
   {
     title: '4. Node',
-    image: './assets/images/project-images/meetEmma2.png',
+    image: './assets/images/red-line.png',
     description: 'Build a simple command-line application with Node.js.',
     tech: 'Node.js, NPM, Inquirer.js'
   },
   {
     title: '5. Simple React App',
-    image: './assets/images/project-images/meetEmma2.png',
+    image: './assets/images/red-line.png',
     description: 'Build a basic React application using the create-react-app NPM package.',
     tech: 'React, create-react-app, Material-UI'
   },
   {
     title: '6. Firebase Project',
-    image: './assets/images/project-images/meetEmma2.png',
+    image: './assets/images/red-line.png',
     description: 'See how it easy it is to build a serverless full-stack application with user authentication with Firebase and React.',
     tech: 'Firebase'
   },
   {
-    title: 'Full-Stack Capstone',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'You will work with at least two other person to put together a full-stack application website of your choosing.',
+    title: 'Capstone: Full-Stack',
+    image: './assets/images/red-line.png',
+    description: 'You will work with at least two other people to put together a full-stack application website of your choosing.',
     tech: 'HTML5, CSS, Bootstrap, JavaScript, React, Firebase'
   }
 ]
@@ -60,6 +60,7 @@ const ProjectsMicro = () => {
         {projects.map( (project, index) => {
           return <MuiThemeProvider key={index}>
             <Card className='project'>
+              {/* <div><img src={project.image} alt="divider" width="100"/></div> */}
               <CardHeader
                 title={project.title}
                 subtitle={project.description}
@@ -68,6 +69,7 @@ const ProjectsMicro = () => {
               <CardText>
                 {/* <a href={project.deploy} target="_blank" rel="noopener noreferrer"><img className="project-image" src={project.image} alt={project.title} /></a> */}
                 <hr />
+
                 <div className="project-links">
                   <p>{project.tech}</p>
                   {/* <a href={project.deploy} target="_blank" rel="noopener noreferrer"><FlatButton label="Live" /></a>
