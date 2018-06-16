@@ -12,7 +12,7 @@ const projects = [{
   },{
     title: '2. Portfolio or Storefront Website',
     image: './assets/images/project-images/continental-phil-tube.png',
-    description: 'Build and deploy a responsive, mobile-ready website, continue learning how to use your Chrome developer tools as well as begining to use Gitbash/Terminal, a text editor like Atom, and Github for version control and Github pages for deployment.',
+    description: 'Build and deploy a responsive, mobile-ready website.',
     tech: 'Bootstrap, Atom, Gitbash/Terminal, Github'
   },{
     title: '3. Let\'s Play',
@@ -28,7 +28,7 @@ const projects = [{
   {
     title: '5. Two-Player Board Game',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a board game where players take turns, can move across the board, pick-up items and carry out other tasks in order to score points.',
+    description: 'Build a board game where players take turns making moves and scoring points.',
     tech: 'more JavaScript and jQuery, Canvas'
   },
   {
@@ -38,16 +38,16 @@ const projects = [{
     tech: 'Postman, API'
   },
   {
-    title: 'Front-End Capstone: Your Choice',
+    title: 'Front-End Capstone',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Work with at least one other person to develop a beautiful, interactive, responive front-end project.',
-    tech: 'HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
+    tech: 'HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming'
   },
   {
     title: '7. Node',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a simple command-line application with Node.js and learn about the word of Node packages with NPM (Node Package Manager).',
-    tech: 'Node.js, NPM, Inquirer.js'
+    description: 'Build a simple command-line application.',
+    tech: 'Node.js, NPM (Node Package Manager), Inquirer.js'
   },
   {
     title: '8. Server-up!',
@@ -70,7 +70,7 @@ const projects = [{
   {
     title: '11. Full CRUD App',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'CRUD stands for create, read, update, and delete. Continue to learn about routing by building out the reast of an full API',
+    description: 'CRUD stands for create, read, update, and delete. Continue to learn about routing by building out a full API',
     tech: 'Mongo/Mongoose'
   },
   {
@@ -82,8 +82,8 @@ const projects = [{
   {
     title: '13. Simple React App',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a basic React application using create-react-app',
-    tech: 'React, create-react-app'
+    description: 'Build a basic React application using create-react-app.',
+    tech: 'React, create-react-app, Material-UI'
   },
   {
     title: '14. Firebase Project',
@@ -92,10 +92,10 @@ const projects = [{
     tech: 'Firebase'
   },
   {
-    title: 'Full-Stack Capstone: Your Choice',
+    title: 'Full-Stack Capstone',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'You will work with at least one other person to put together a full-stack application website of your choosing.',
-    tech: 'HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Node.js, Express, Handlebars or React, Mongo/Mongoose, Passport.js'
+    description: 'You will work with at least two other person to put together a full-stack application website of your choosing.',
+    tech: 'HTML5, CSS, JavaScript, Node.js/Express, Handlebars or React, Mongo/Mongoose, Passport.js'
   }
 ]
 

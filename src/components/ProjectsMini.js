@@ -27,7 +27,7 @@ const projects = [{
     tech: 'Postman, API'
   },
   {
-    title: 'Front-End Capstone: Your Choice',
+    title: 'Front-End Capstone',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Work with at least one other person to develop a beautiful, interactive, responive front-end project.',
     tech: 'Semantic HTML5, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
@@ -57,9 +57,9 @@ const projects = [{
     tech: 'Firebase'
   },
   {
-    title: 'Full-Stack Capstone: Your Choice',
+    title: 'Full-Stack Capstone',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'You will work with at least one other person to put together a full-stack application website of your choosing.',
+    description: 'You will work with at least two other person to put together a full-stack application website of your choosing.',
     tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Node.js, Express, Handlebars or React, Mongo/Mongoose, Passport.js'
   }
 ]
