@@ -26,15 +26,15 @@ const projects = [{
     tech: 'more Javascript, jQuery'
   },
   {
-    title: '4. Two-Player Board Game',
+    title: '5. Two-Player Board Game',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build a board game where players take turns, can move across the board, and carry out tasks.',
     tech: 'JavaScript, jQuery, Canvas'
   },
   {
-    title: '5. Use an API',
+    title: '6. Use an API',
     image: './assets/images/project-images/meetEmma2.png',
-    description: 'Consume data from a thiTd party API and deliver it to your user.',
+    description: 'Consume data from a third party API and deliver it to your user.',
     tech: 'Postman, API'
   },
   {
@@ -44,49 +44,49 @@ const projects = [{
     tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
   },
   {
-    title: '6. Node',
+    title: '7. Node',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build a simple command-line application with Node.js and learn about the word of Node packages with NPM (Node Package Manager).',
     tech: 'Node.js, NPM, Inquirer.js'
   },
   {
-    title: '7. Server-up!',
+    title: '8. Server-up!',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build your first back-end server using Express',
     tech: 'Express'
   },
   {
-    title: '8. Back-End Templating',
+    title: '9. Back-End Templating',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Learn the principles of D.R.Y. by implemenintg some server-side templating,',
     tech: 'Handlebars'
   },
   {
-    title: '9. Firebase Project',
+    title: '10. Firebase Project',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'See how it easy it is to build serverless full-stack application using a service like Firebase.',
     tech: 'Firebase'
   },
   {
-    title: '10. Create & Read Routes',
+    title: '11. Create & Read Routes',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Set up your first database using Mongo and write your first two routes.',
     tech: 'Mongo'
   },
   {
-    title: '11. Full CRUD App',
+    title: '12. Full CRUD App',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'CRUD stands for create, read, update, and delete. Continue to learn about routing by building out the reast of an full API',
     tech: 'Mongo/Mongoose'
   },
   {
-    title: '12. Full-Stack Application with Log-In',
+    title: '13. Full-Stack Application with Log-In',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Add log-in funcitonality to a full stack MERN application.',
     tech: 'Passport.js, oAuth'
   },
   {
-    title: '13. Simple React App',
+    title: '14. Simple React App',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build a basic React application using create-react-app',
     tech: 'React, create-react-app'

@@ -28,7 +28,7 @@ class App extends Component {
             <ul>
               <li>♛ You will build Projects. Lots of them. So you will end up with some great portfolio pieces!</li>
               <li>♛ You will learn what you need to learn when you need to use it. No redundancy or wasted energy.</li>
-              <li>♛ One week you learn, the next week you teach others. Learn by teaching, share your knowledge, build your confidence.</li>
+              <li>♛ Learn by teaching - share your knowledge, build your confidence.</li>
             </ul>
           </CardText>
         </Card>
