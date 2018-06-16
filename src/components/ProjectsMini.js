@@ -5,34 +5,23 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import './Projects.css'
 
 const projects = [{
-    title: '1. Tribute Webpage',
-    image: './assets/images/project-images/ppp.png',
-    description: 'Build a single-page, static website that incorporates visual media.',
-    tech: 'Semantic HTML, CSS, Chrome Web Developer Tools'
-  },{
-    title: '2. Portfolio or Storefront Website',
+    title: '1. Portfolio or Storefront Website',
     image: './assets/images/project-images/continental-phil-tube.png',
     description: 'Build and deploy a responsive, mobile-ready website, continue learning how to use your Chrome developer tools as well as begining to use Gitbash/Terminal, a text editor like Atom, and Github for version control and Github pages for deployment.',
     tech: 'Bootstrap, Atom, Gitbash/Terminal, Github'
   },{
-    title: '3. Let\'s Play',
+    title: '2. Let\'s Play',
     image: './assets/images/project-images/pdx-tech-hub.png',
     description: 'Build a simple game to practice your JavaScript skills, like tic-tac-toe, a memory card game, or an online quiz.',
     tech: 'JavaScript'
   },{
-    title: '4. Quote Generator',
+    title: '3. Quote Generator',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build an application that will deliver as many quotes as the user requests, on a theme of your liking.',
     tech: 'more Javascript, jQuery'
   },
   {
-    title: '5. Two-Player Board Game',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'Build a board game where players take turns, can move across the board, pick-up items and carry out other tasks in order to score points.',
-    tech: 'more JavaScript and jQuery, Canvas'
-  },
-  {
-    title: '6. Use an API',
+    title: '4. Use an API',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Consume data from a third party API and deliver it to your user.',
     tech: 'Postman, API'
@@ -44,49 +33,25 @@ const projects = [{
     tech: 'Semantic HTML, CSS, Bootstrap, Chrome Web Developer Tools, Atom, Gitbash/Terminal, Github, JavaScript, jQuery, Postman, API, Pair-programming'
   },
   {
-    title: '7. Node',
+    title: '5. Node',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build a simple command-line application with Node.js and learn about the word of Node packages with NPM (Node Package Manager).',
     tech: 'Node.js, NPM, Inquirer.js'
   },
   {
-    title: '8. Server-up!',
+    title: '6. Server-up!',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build your first back-end server using Express.',
     tech: 'Express'
   },
   {
-    title: '9. Back-End Templating',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'Learn the principles of D.R.Y. by implemenintg some server-side templating.',
-    tech: 'Handlebars'
-  },
-  {
-    title: '10. Create & Read Routes',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'Set up your first database using Mongo and write your first two routes.',
-    tech: 'Mongo'
-  },
-  {
-    title: '11. Full CRUD App',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'CRUD stands for create, read, update, and delete. Continue to learn about routing by building out the reast of an full API',
-    tech: 'Mongo/Mongoose'
-  },
-  {
-    title: '12. Full-Stack Application with Log-In',
-    image: './assets/images/project-images/meetEmma2.png',
-    description: 'Add log-in funcitonality to a full stack MERN application.',
-    tech: 'Passport.js, oAuth'
-  },
-  {
-    title: '13. Simple React App',
+    title: '7. Simple React App',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'Build a basic React application using create-react-app',
     tech: 'React, create-react-app'
   },
   {
-    title: '14. Firebase Project',
+    title: '8. Firebase Project',
     image: './assets/images/project-images/meetEmma2.png',
     description: 'See how it easy it is to build serverless full-stack application with user authentication using a service like Firebase in combiantion with React.',
     tech: 'Firebase'
@@ -99,7 +64,7 @@ const projects = [{
   }
 ]
 
-const Projects = () => {
+const ProjectsMini = () => {
   return (
       <div className="Projects" id='projects'>
         {projects.map( (project, index) => {
@@ -127,4 +92,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default ProjectsMini

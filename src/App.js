@@ -4,6 +4,7 @@ import Navigation from './components/Navigation'
 import {Card, CardHeader, CardText} from 'material-ui/Card'
 import About from './components/About'
 import Projects from './components/Projects'
+import ProjectsMini from './components/ProjectsMini'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import Testimonials from './components/Testimonials'
 
@@ -32,8 +33,10 @@ class App extends Component {
             </ul>
           </CardText>
         </Card>
-        <h2>WHAT YOU WILL BUILD</h2>
+        <h2>WHAT YOU WILL BUILD: Full Curriculum</h2>
         <Projects />
+        <h2>WHAT YOU WILL BUILD: Shortened Curriculum</h2>
+        <ProjectsMini />
         <h2>ABOUT YOUR ORGANIZER</h2>
         <About />
         {/* <Testimonials /> */}
