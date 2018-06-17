@@ -3,48 +3,56 @@
     "title": "1. Portfolio or Storefront Website",
     "image": "",
     "description": "Build and deploy a responsive, mobile-ready website.",
-    "tech": "HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github"
+    "tech": "HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github",
+    "repo": "https://github.com/webdevladies-dr/02-responsive-website"
   },
   {
     "title": "2. Let's Play Javascript",
     "image": "",
     "description": "Build an online quiz or quote generator game to practice your JavaScript skills.",
-    "tech": "JavaScript, jQuery"
+    "tech": "JavaScript, jQuery",
+    "repo": ""
   },
   {
     "title": "3. Use an API",
     "image": "",
     "description": "Consume data from a third party API and deliver it to your user.",
-    "tech": "Postman, API"
+    "tech": "Postman, API",
+    "repo": ""
   },
   {
     "title": "Capstone: Front-End",
     "image": "",
     "description": "Work with at least one other person to develop a beautiful, interactive, responive front-end project.",
-    "tech": "HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming"
+    "tech": "HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming",
+    "repo": ""
   },
   {
     "title": "4. Node",
     "image": "",
     "description": "Build a simple command-line application with Node.js.",
-    "tech": "Node.js, NPM, Inquirer.js"
+    "tech": "Node.js, NPM, Inquirer.js",
+    "repo": ""
   },
   {
     "title": "5. Simple React App",
     "image": "",
     "description": "Build a basic React application using the create-react-app NPM package.",
-    "tech": "React, create-react-app, Material-UI"
+    "tech": "React, create-react-app, Material-UI",
+    "repo": ""
   },
   {
     "title": "6. Firebase Project",
     "image": "",
     "description": "See how it easy it is to build a serverless full-stack application with user authentication with Firebase and React.",
-    "tech": "Firebase"
+    "tech": "Firebase",
+    "repo": ""
   },
   {
     "title": "Capstone: Full-Stack",
     "image": "",
     "description": "You will work with at least two other people to put together a full-stack application website of your choosing.",
-    "tech": "HTML5, CSS, Bootstrap, JavaScript, React, Firebase"
+    "tech": "HTML5, CSS, Bootstrap, JavaScript, React, Firebase",
+    "repo": ""
   }
 ]
