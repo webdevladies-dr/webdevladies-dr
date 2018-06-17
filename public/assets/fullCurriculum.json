@@ -3,93 +3,109 @@
     "title": "1. Tribute Webpage",
     "image": "",
     "description": "Build a single-page, static website that incorporates visual media.",
-    "tech": "HTML5, CSS, Chrome Web Developer Tools"
+    "tech": "HTML5, CSS, Chrome Web Developer Tools",
+    "repo": "https://github.com/webdevladies-dr/01-static-website"
   },{
     "title": "2. Portfolio or Storefront Website",
     "image": "",
     "description": "Build and deploy a responsive, mobile-ready website.",
-    "tech": "HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github"
+    "tech": "HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github",
+    "repo": "https://github.com/webdevladies-dr/02-responsive-website"
   },{
     "title": "3. Let's Play Javascript",
     "image": "",
     "description": "Build an online quiz or quote generator game to practice your JavaScript skills.",
-    "tech": "JavaScript, jQuery"
+    "tech": "JavaScript, jQuery",
+    "repo": ""
   },{
     "title": "4. Quote Generator",
     "image": "",
     "description": "Build an application that will deliver as many quotes as the user requests, on a theme of your liking.",
-    "tech": "more Javascript, jQuery"
+    "tech": "more Javascript, jQuery",
+    "repo": ""
   },
   {
     "title": "5. Two-Player Board Game",
     "image": "",
     "description": "Build a board game where players take turns making moves and scoring points.",
-    "tech": "more JavaScript and jQuery, Canvas"
+    "tech": "more JavaScript and jQuery, Canvas",
+    "repo": ""
   },
   {
     "title": "6. Use an API",
     "image": "",
     "description": "Consume data from a third party API and deliver it to your user.",
-    "tech": "Postman, API"
+    "tech": "Postman, API",
+    "repo": ""
   },
   {
     "title": "Capstone: Front-End",
     "image": "",
     "description": "Work with at least one other person to develop a beautiful, interactive, responive front-end project.",
-    "tech": "HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming"
+    "tech": "HTML5, CSS, Bootstrap, JavaScript, jQuery, API, Pair-programming",
+    "repo": ""
   },
   {
     "title": "7. Node",
     "image": "",
     "description": "Build a simple command-line application.",
-    "tech": "Node.js, NPM (Node Package Manager), Inquirer.js"
+    "tech": "Node.js, NPM (Node Package Manager), Inquirer.js",
+    "repo": ""
   },
   {
     "title": "8. Server-up!",
     "image": "",
     "description": "Build your first back-end server using Express.",
-    "tech": "Express"
+    "tech": "Express",
+    "repo": ""
   },
   {
     "title": "9. Back-End Templating",
     "image": "",
     "description": "Learn the principles of D.R.Y. by implemenintg some server-side templating.",
-    "tech": "Handlebars"
+    "tech": "Handlebars",
+    "repo": ""
   },
   {
     "title": "10. Create & Read Routes",
     "image": "",
     "description": "Set up your first database using Mongo and write your first two routes.",
-    "tech": "Mongo"
+    "tech": "Mongo",
+    "repo": ""
   },
   {
     "title": "11. Full CRUD App",
     "image": "",
     "description": "CRUD stands for create, read, update, and delete. Continue to learn about routing by building out a full API",
-    "tech": "Mongo/Mongoose"
+    "tech": "Mongo/Mongoose",
+    "repo": ""
   },
   {
     "title": "12. Full-Stack Application with Log-In",
     "image": "",
     "description": "Add log-in funcitonality to a full stack MERN application.",
-    "tech": "Passport.js, oAuth"
+    "tech": "Passport.js, oAuth",
+    "repo": ""
   },
   {
     "title": "13. Simple React App",
     "image": "",
     "description": "Build a basic React application using create-react-app.",
-    "tech": "React, create-react-app, Material-UI"
+    "tech": "React, create-react-app, Material-UI",
+    "repo": ""
   },
   {
     "title": "14. Firebase Project",
     "image": "",
     "description": "See how it easy it is to build a serverless full-stack application with user authentication with Firebase and React.",
-    "tech": "Firebase"
+    "tech": "Firebase",
+    "repo": ""
   },
   {
     "title": "Capstone: Full-Stack",
     "image": "",
     "description": "You will work with at least two other people to put together a full-stack application website of your choosing.",
-    "tech": "HTML5, CSS, JavaScript, Node.js/Express, Handlebars or React, Mongo/Mongoose, Passport.js"
+    "tech": "HTML5, CSS, JavaScript, Node.js/Express, Handlebars or React, Mongo/Mongoose, Passport.js",
+    "repo": ""
   }
 ]

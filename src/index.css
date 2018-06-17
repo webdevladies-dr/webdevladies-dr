@@ -8,3 +8,13 @@ body {
 a {
   color: rgb(100, 98, 131);
 }
+.welcome {
+  margin-top: 40px;
+  text-align: center;
+}
+.survey {
+  display: flex;
+  justify-content: center;
+
+
+}

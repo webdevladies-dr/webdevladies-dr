@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-// import FlatButton from 'material-ui/FlatButton'
+import FontAwesome from 'react-fontawesome'
+import FlatButton from 'material-ui/FlatButton'
 import RaisedButton from 'material-ui/RaisedButton'
 import {Card, CardHeader, CardText} from 'material-ui/Card'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
@@ -14,7 +15,7 @@ class Projects extends Component {
       label: '',
       fullCurriculum: [],
       shortCurriculum: [],
-      currentView: 'shortCurriculum',
+      currentView: 'fullCurriculum',
     }
   }
 
@@ -22,7 +23,7 @@ class Projects extends Component {
     axios.all([this.getFullCurriculum(), this.getShortCurriculum()])
         .then(axios.spread( (full, short) => {
           this.setState({
-            label: 'See Full Curriculum',
+            label: 'See Short Curriculum',
             fullCurriculum: full.data,
             shortCurriculum: short.data
           })
@@ -62,7 +63,7 @@ class Projects extends Component {
               onClick={this.changeView}
               label={this.state.label}
             />
-            <hr />
+            
           <div className="Projects" id='projects'>
           {this.state[this.state.currentView].map( (project, index) => {
             return (
@@ -78,6 +79,7 @@ class Projects extends Component {
                     <div className="project-links">
                       <p>{project.tech}</p>
                     </div>
+                    <a target="_blank" href={project.repo}><FontAwesome name='github' /></a>
                   </CardText>
                 </Card>
               </MuiThemeProvider>

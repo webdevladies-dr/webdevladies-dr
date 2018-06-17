@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div>
         <MuiThemeProvider>
-        <Navigation />
+        {/* <Navigation /> */}
         <h2>LEARN TO CODE FROM SCRATCH</h2>
         <Card className='learn'>
           <CardHeader
@@ -35,9 +35,9 @@ class App extends Component {
         </Card>
         <h2>WHAT YOU WILL BUILD</h2>
         <Projects />
-        <h2>ABOUT YOUR ORGANIZER</h2>
+        <h2>ABOUT YOUR TEACHER</h2>
         <About />
-        {/* <Testimonials /> */}
+
         <Footer />
         </MuiThemeProvider>
     </div>
