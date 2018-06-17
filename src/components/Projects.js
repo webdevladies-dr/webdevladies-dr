@@ -11,7 +11,7 @@ class Projects extends Component {
   constructor() {
     super()
     this.state = {
-
+      label: '',
       fullCurriculum: [],
       shortCurriculum: [],
       currentView: 'shortCurriculum',
@@ -22,7 +22,7 @@ class Projects extends Component {
     axios.all([this.getFullCurriculum(), this.getShortCurriculum()])
         .then(axios.spread( (full, short) => {
           this.setState({
-
+            label: 'See Full Curriculum',
             fullCurriculum: full.data,
             shortCurriculum: short.data
           })
@@ -40,13 +40,15 @@ class Projects extends Component {
       }
 
       changeView= () => {
-        if(this.state[this.state.currentView].length == 8) {
+        if(this.state.label === 'See Full Curriculum') {
           this.setState({
-            currentView: 'fullCurriculum'
+            currentView: 'fullCurriculum',
+            label: 'See Short Curriculum'
           })
         } else {
           this.setState({
-            currentView: 'shortCurriculum'
+            currentView: 'shortCurriculum',
+            label: 'See Full Curriculum'
           })
         }
       }
@@ -58,13 +60,7 @@ class Projects extends Component {
               className='action-button'
               type="text"
               onClick={this.changeView}
-              label="Full Curriculum"
-            />
-            <RaisedButton
-              className='action-button'
-              type="text"
-              onClick={this.changeView}
-              label="Short Curriculum"
+              label={this.state.label}
             />
             <hr />
           <div className="Projects" id='projects'>
