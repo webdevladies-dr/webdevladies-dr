@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import './App.css'
 import Navigation from './components/Navigation'
 import {Card, CardHeader, CardText} from 'material-ui/Card'
+// import RaisedButton from 'material-ui/RaisedButton'
 import About from './components/About'
 import Projects from './components/Projects'
-import ProjectsMini from './components/ProjectsMini'
-import ProjectsMicro from './components/ProjectsMicro'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import Testimonials from './components/Testimonials'
 
@@ -35,13 +34,6 @@ class App extends Component {
           </CardText>
         </Card>
         <h2>WHAT YOU WILL BUILD</h2>
-        <h4>Short Curriculum</h4>
-        <ProjectsMicro />
-        {/* <h2>WHAT YOU WILL BUILD</h2>
-        <h4> Shortened Curriculum</h4>
-        <ProjectsMini />
-        <h2>WHAT YOU WILL BUILD</h2> */}
-        <h4>Full Curriculum</h4>
         <Projects />
         <h2>ABOUT YOUR ORGANIZER</h2>
         <About />

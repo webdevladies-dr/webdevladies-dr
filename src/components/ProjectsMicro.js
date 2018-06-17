@@ -11,7 +11,7 @@ const projects = [{
     tech: 'HTML5, CSS, Bootstrap, Atom, Gitbash/Terminal, Github'
   },
   {
-    title: '2. Let\'s Play',
+    title: '2. Let\'s Play Javascript',
     image: './assets/images/blue-line.png',
     description: 'Build an online quiz or quote generator game to practice your JavaScript skills.',
     tech: 'JavaScript, jQuery'
