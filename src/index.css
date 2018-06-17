@@ -9,6 +9,7 @@ a {
   color: rgb(100, 98, 131);
 }
 .welcome {
+  margin: 20px;
   margin-top: 40px;
   text-align: center;
 }
