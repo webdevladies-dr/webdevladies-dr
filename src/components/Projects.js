@@ -15,7 +15,7 @@ class Projects extends Component {
       label: '',
       fullCurriculum: [],
       shortCurriculum: [],
-      currentView: 'fullCurriculum',
+      currentView: 'shortCurriculum',
     }
   }
 
@@ -23,7 +23,7 @@ class Projects extends Component {
     axios.all([this.getFullCurriculum(), this.getShortCurriculum()])
         .then(axios.spread( (full, short) => {
           this.setState({
-            label: 'See Short Curriculum',
+            label: 'See Long Curriculum',
             fullCurriculum: full.data,
             shortCurriculum: short.data
           })
@@ -63,7 +63,7 @@ class Projects extends Component {
               onClick={this.changeView}
               label={this.state.label}
             />
-            
+
           <div className="Projects" id='projects'>
           {this.state[this.state.currentView].map( (project, index) => {
             return (

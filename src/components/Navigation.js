@@ -8,7 +8,7 @@ const Navigtaion = () => {
     <Navbar collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-          <h1>Web Dev Ladies DR</h1>
+          <h1>Web Dev Ladies</h1>
         </Navbar.Brand>
       </Navbar.Header>
       <Nav pullRight>
